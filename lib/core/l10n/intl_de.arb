@@ -1,0 +1,27 @@
+{
+    "@@locale": "de",
+    "appTitle": "Meine App",
+    "@appTitle": {
+        "description": "Der Titel der Anwendung"
+    },
+    "greeting": "Hallo, {name}!",
+    "@greeting": {
+        "description": "Eine Begrüßungsnachricht",
+        "placeholders": {
+            "name": {
+                "type": "String",
+                "example": "Hans"
+            }
+        }
+    },
+    "itemCount": "{count, plural, =0{Keine Artikel} =1{Ein Artikel} other{{count} Artikel}}",
+    "@itemCount": {
+        "description": "Eine Nachricht, die die Anzahl der Artikel anzeigt",
+        "placeholders": {
+            "count": {
+                "type": "num",
+                "format": "compact"
+            }
+        }
+    }
+}
